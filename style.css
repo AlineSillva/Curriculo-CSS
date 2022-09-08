@@ -1,0 +1,160 @@
+body {
+    background-color:rgb(255, 193, 193);
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 0px;
+    margin-top: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+
+
+.title {
+    color:crimson;
+    font-size: 76px;    
+    /*margin-top: 300px;*/
+    margin-left: 150px;
+}
+
+.subtitle {
+    color: #0F6466;
+    font-size: 76px;
+    margin-top: -80px;
+    margin-left: 150px;
+}
+
+.p_subtitle {
+    color: #2C3532;
+    font-size: 36px;
+    margin-top: -60px;
+    font-family: 'Quicksand', sans-serif;
+    margin-left: 150px;
+}
+
+hr {
+    border-width: 0; 
+	height: 1px;
+	border-top-width: 1px;
+    color: #0F6466;
+    width: 50%;
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+.hr_home {
+    border-width: 0; 
+	height: 1px;
+	border-top-width: 1px;
+    color: #0F6466;
+    width: 50%;
+    margin-top: 320px;
+}
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #2C3532;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-top: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+._title {
+    font-size: 22px;
+}
+
+.sub_title {
+    
+    color: #0F6466;
+    font-size: 36px;
+    margin-top: -80px;
+    margin-left: -1px;
+}
+
+.p_title {
+    font-size: 20px;
+    margin-top: -55px;
+    margin-left: 115px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.sub_p_title {
+    font-size: 20px;
+    margin-top: -55px;
+    margin-left: 115px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2, h3, h3, p, ul, li {
+    color: #2C3532;
+}
+
+h2 {
+    font-size: 56px;
+}
+
+._title {
+    color:crimson;
+    font-size: 76px;
+    /*margin-top: 300px;*/
+    margin-left: 150px;
+}
+
+.container_home {
+    margin-top: 250px;
+}
+
+.container_info {
+    margin-right: 350px;
+}
+
+.skills_title {
+    color: #0F6466;
+    font-size: 36px;
+    margin-top: -80px;
+    margin-left: 110px;
+}
+
+.footer {
+    position: end;
+    bottom: 0;
+    background-color: #2C3532;
+    color: #FFF;
+    width: 100% !important;	
+    text-align: center;
+    line-height: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
